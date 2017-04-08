@@ -32,7 +32,7 @@ namespace DFS_Algorithm
             { 
                     dfs(0, sumarr[j], resultprint, list, detailarr,sumarr[j]); 
             }
-            totallist.ForEach((x) => Console.WriteLine(x));
+            totallist.ForEach((x) => show(x));
         }
 
 
